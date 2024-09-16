@@ -66,7 +66,7 @@ const Resume = () => {
       </section>
 
       <div className="resume-bottom">
-        <section className="resume-section skills-section">
+        <section className="skills-section">
           <h2 className="section-title">Skills</h2>
           <ul className="skills-list">
             <li>NodeJs and ReactJs</li>
@@ -75,7 +75,7 @@ const Resume = () => {
           </ul>
         </section>
 
-        <section className="resume-section certifications-section">
+        <section className="certifications-section">
           <h2 className="section-title">Certifications</h2>
           <ul className="certifications-list">
             <li>Alibaba Cloud Certified Associate (ACA) Big Data</li>
