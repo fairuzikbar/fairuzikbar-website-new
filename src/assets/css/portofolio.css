@@ -1,0 +1,26 @@
+.portfolio-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.portfolio-header {
+  text-align: justify;
+  margin-bottom: 3rem;
+}
+
+.portfolio-section {
+  margin-bottom: 3rem;
+}
+
+.portfolio-item p {
+  margin-bottom: 1.5rem;
+  text-align: justify;
+  border-bottom: 1px solid #eaeaea;
+}
+
+@media (max-width: 768px) {
+  .portfolio-container {
+    padding: 1.5rem;
+  }
+}
