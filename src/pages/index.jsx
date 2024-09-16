@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/css/hero.css";
 import { NavLink } from "react-router-dom";
-import { FaLinkedin, FaGithub, FaSquareTwitter } from "react-icons/fa6";
+import { FaLinkedin, FaGithub, FaSquareTwitter, FaFileArrowDown } from "react-icons/fa6";
 import Profile from "../assets/img/profile.jpg";
 
 const Home = () => {
@@ -24,11 +24,11 @@ const Home = () => {
             have a career as a Software Quality Assurance Automation Engineer at
             Bank Mandiri.
           </p>
-          <NavLink to="/resume">
-            <button className="contact-button">See my resume</button>
+          <NavLink to="/download-cv">
+            <button className="contact-button"><FaFileArrowDown /> See my resume</button>
           </NavLink>
         </div>
-        <div className="social-links">
+        {/* <div className="social-links">
           <a
             href="https://linkedin.com"
             target="_blank"
@@ -50,7 +50,7 @@ const Home = () => {
           >
             <FaSquareTwitter /> Twitter
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );

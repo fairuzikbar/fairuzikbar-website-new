@@ -7,8 +7,10 @@ import Contact from "./pages/contact";
 import Portofolio from "./pages/portofolio";
 import Resume from "./pages/resume";
 import Footer from "./components/Footer/Footer";
+import PDFViewer from "./pages/cv";
 
 function App() {
+  const googleDriveFileId = "12O6w9q_OZEaKu1eS922ipSnibq-2GCTc"; // Replace with your actual Google Drive file ID
   return (
     <>
       <Router>
@@ -19,6 +21,10 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/portofolio" element={<Portofolio />} />
           <Route path="/contact" element={<Contact />} />
+          <Route
+            path="/download-cv"
+            element={<PDFViewer pdfUrl={googleDriveFileId} />}
+          />
         </Routes>
       </Router>
       <Footer />

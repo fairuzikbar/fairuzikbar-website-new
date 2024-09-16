@@ -42,7 +42,7 @@ const Contact = () => {
             <FaEnvelope className="contact-icon" />
             <span>
               Email:{" "}
-              <a href="mailto:your.email@example.com">
+              <a href="mailto:fairuzikbar.space@gmail.com">
                 fairuzikbar.space@gmail.com
               </a>
             </span>
