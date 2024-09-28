@@ -1,28 +1,22 @@
 import React from "react";
 import "../assets/css/about.css"; // Custom styling
+import { useLanguage } from "../components/LanguageContext";
+import translations from "../assets/json/translation.json";
 
 const About = () => {
+  const { language, setLanguage } = useLanguage();
+  const t = translations[language];
   return (
     <div className="about-container">
       <section className="about-intro">
         <h1>About Me</h1>
-        <p>
-          Hello! I'm Fairuz Ikbar, a Software Quality Assurance Automation
-          Engineer with a passion for technology and continuous learning. With a
-          background in heavy machinery engineering, I transitioned into the
-          world of IT, focusing on software testing and automation.
-        </p>
+        <p>{t.about.intro}</p>
       </section>
 
       <div className="about-content">
         <section className="about-background">
           <h2>My Journey</h2>
-          <p>
-            I started my career with a degree in Heavy Equipment Engineering but
-            soon realized my true interest lies in the tech world. After diving
-            into full stack development, I specialized in QA automation,
-            ensuring software products maintain their highest quality.
-          </p>
+          <p>{t.about.journey}</p>
         </section>
 
         <section className="about-skills">

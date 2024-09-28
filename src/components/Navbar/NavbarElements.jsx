@@ -89,20 +89,32 @@ export const NavBtn = styled.nav`
 `;
 
 export const NavBtnLink = styled(Link)`
-  border-radius: 2000px;
   background: #fff;
-  color: #808080;
-  border: 1px solid #808080;
-  padding: 10px 22px;
+  // color: #808080;
+  padding: 0 1rem;
+  margin: 0;
   outline: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   /* Second Nav */
-  margin-left: 24px;
+  /*
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #808080;
+    // background: #808080;
     color: #fff;
+  }
+  */
+`;
+export const NavLang = styled.div`
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  @media screen and (max-width: 768px) {
+    display: flex; /* Toggling display */
+    align-items: center;
+    // justify-content: end;
+    padding-right: 4rem;
+    // width: 100%; /* Set width to 100% to match the Nav */
   }
 `;

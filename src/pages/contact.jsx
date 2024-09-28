@@ -8,16 +8,17 @@ import {
   FaGithub,
 } from "react-icons/fa6";
 import "../assets/css/contact.css";
+import { useLanguage } from "../components/LanguageContext";
+import translations from "../assets/json/translation.json";
 
 const Contact = () => {
+  const { language, setLanguage } = useLanguage();
+  const t = translations[language];
   return (
     <div className="contact-container">
       <div className="contact-header">
         <h1>Get in Touch</h1>
-        <p>
-          Whether you have a project in mind, a question to ask, or just want to
-          connect, feel free to reach out! I’d love to hear from you.
-        </p>
+        <p>{t.contact.intro}</p>
       </div>
 
       <div className="map-section">
@@ -55,10 +56,7 @@ const Contact = () => {
 
         <div className="social-media">
           <h2>Stay Connected</h2>
-          <p>
-            Let’s stay in touch through social media. Follow my journey, see my
-            latest updates, and feel free to reach out!
-          </p>
+          <p>{t.contact.connected}</p>
           <div className="social-grid">
             <a
               href="https://instagram.com/fairuzikbar"

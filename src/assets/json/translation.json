@@ -1,0 +1,152 @@
+{
+  "en": {
+    "hero": {
+      "bio": "Graduate of Bachelor of Applied Engineering with a background in Heavy Equipment Engineering who switched to the IT field by studying Full Stack Development using NodeJs and Angular for ±3 months. I previously worked as a Big Data Engineer at OCBC NISP and currently have a career as a Software Quality Assurance Automation Engineer at Bank Mandiri.",
+      "button": "See my resume"
+    },
+    "about": {
+      "intro": "Hello! I'm Fairuz Ikbar, a Software Quality Assurance Automation Engineer with a passion for technology and continuous learning. With a background in heavy machinery engineering, I transitioned into the world of IT, focusing on software testing and automation.",
+      "journey": "I started my career with a degree in Heavy Equipment Engineering but soon realized my true interest lies in the tech world. After diving into full stack development, I specialized in QA automation, ensuring software products maintain their highest quality."
+    },
+    "resume": {
+      "intro": "Below is a detailed summary of my professional experience, education, and skills as a Software Quality Assurance Automation Engineer & Big Data Engineer.",
+      "education": {
+        "first": {
+          "title": "Bachelor of Applied Science (BASc)",
+          "major": "Heavy Equipment Engineering"
+        }
+      },
+      "experience": {
+        "first": {
+          "period": "November 2023 - Present",
+          "desc": {
+            "first": "Testing API & mobile applications using Katalon Studio",
+            "second": "Build automation dashboard using ReactJs",
+            "third": "Enhance API for automation dashboard"
+          }
+        },
+        "second": {
+          "period": "October 2022 - October 2023",
+          "desc": {
+            "first": "Migrate SAS Language to Hive SQL and Python (Jupyter)",
+            "second": "UAT script Webstatement Phase 2 using python",
+            "third": "Replicate table using Airflow",
+            "fourth": "Enhancement existing function in postgreSQL",
+            "fifth": "Create new report services using Business Intelligence Microsoft Visual Studio",
+            "sixth": "Create function for reporting services using Hive SQL"
+          }
+        }
+      }
+    },
+    "portofolio": {
+      "intro": "A collection of my professional accomplishments and project work in Software Quality Assurance Automation and Big Data Engineering.",
+      "overview": {
+        "first": {
+          "title": "Banking Application Test Automation",
+          "desc": "Developed automated test cases for critical mobile banking applications using Selenium and Katalon Studio, significantly reducing post-release issues."
+        },
+        "second": {
+          "title": "API Test Automation",
+          "desc": "Developed API automated test cases for Backend applications using Katalon Studio, significantly reducing manual testing time."
+        },
+        "third": {
+          "title": "Migrate SAS to SQL",
+          "desc": "Migrated from SAS language (*.sas) to SQL (*.sql), ensuring data accuracy by comparing outputs from the original SAS to the SQL queries until the results matched."
+        },
+        "fourth": {
+          "title": "Data Workflow Transition",
+          "desc": "Migrated from Informatica to Airflow for data extraction by deploying table in Airflow. Configured scheduling and table dependencies to streamline data workflows and ensure efficient data processing."
+        },
+        "fifth": {
+          "title": "Microsoft BI Report Creation",
+          "desc": "Developed new reporting services using Microsoft Business Intelligence in Visual Studio, enhancing data visualization and reporting capabilities to support informed decision-making and operational efficiency."
+        }
+      },
+      "case": {
+        "first": {
+          "title": "Streamlining TOML Workflows with Python",
+          "desc": "Simplified the workflow for building TOML files using Python, enhancing efficiency and automation in configuration management and reducing manual effort."
+        }
+      }
+    },
+    "contact": {
+      "intro": "Whether you have a project in mind, a question to ask, or just want to connect, feel free to reach out! I’d love to hear from you.",
+      "connected": "Let’s stay in touch through social media. Follow my journey, see my latest updates, and feel free to reach out!"
+    }
+  },
+  "id": {
+    "hero": {
+      "bio": "Lulusan Sarjana Terapan Teknik dengan latar belakang Teknik Alat Berat yang beralih ke bidang IT dengan mempelajari Full Stack Development menggunakan NodeJs dan Angular selama ±3 bulan. Saya sebelumnya bekerja sebagai Big Data Engineer di OCBC NISP dan saat ini berkarier sebagai Quality Assurance Automation Engineer di Bank Mandiri.",
+      "button": "Lihat resume saya"
+    },
+    "about": {
+      "intro": "Halo! Saya Fairuz Ikbar, seorang Quality Assurance Automation Engineer dengan hasrat terhadap teknologi dan pembelajaran yang berkelanjutan. Dengan latar belakang teknik alat berat, saya beralih ke dunia IT dan fokus pada pengujian perangkat lunak dan otomatisasi.",
+      "journey": "Saya memulai karier dengan gelar di bidang Teknik Alat Berat, tetapi segera menyadari minat saya yang sebenarnya ada di dunia teknologi. Setelah mendalami pengembangan full stack, saya mengkhususkan diri dalam otomatisasi QA, memastikan produk perangkat lunak mempertahankan kualitas terbaiknya."
+    },
+    "resume": {
+      "intro": "Di bawah ini adalah ringkasan terperinci dari pengalaman profesional, pendidikan, dan keterampilan saya sebagai Quality Assurance Automation Engineer & Big Data Engineer.",
+      "education": {
+        "first": {
+          "title": "Sarjana Terapan Sains (ST)",
+          "major": "Teknik Alat Berat"
+        }
+      },
+      "experience": {
+        "first": {
+          "period": "November 2023 - Saat ini",
+          "desc": {
+            "first": "Pengujian API & aplikasi seluler menggunakan Katalon Studio",
+            "second": "Membangun dashboard otomatisasi menggunakan ReactJs",
+            "third": "Meningkatkan API untuk dashboard otomatisasi"
+          }
+        },
+        "second": {
+          "period": "Oktober 2022 - Oktober 2023",
+          "desc": {
+            "first": "Migrasi Bahasa SAS ke Hive SQL dan Python (Jupyter)",
+            "second": "Skrip UAT Webstatement Tahap 2 menggunakan Python",
+            "third": "Replikasi tabel menggunakan Airflow",
+            "fourth": "Peningkatan fungsi yang ada di postgreSQL",
+            "fifth": "Membuat layanan laporan baru menggunakan Business Intelligence Microsoft Visual Studio",
+            "sixth": "Membuat fungsi untuk layanan pelaporan menggunakan Hive SQL"
+          }
+        }
+      }
+    },
+    "portofolio": {
+      "intro": "Kumpulan pencapaian profesional dan pekerjaan proyek saya di bidang Quality Assurance Automation dan Big Data Engineering.",
+      "overview": {
+        "first": {
+          "title": "Otomatisasi Pengujian Aplikasi Perbankan",
+          "desc": "Mengembangkan kasus uji otomatis untuk aplikasi perbankan seluler yang penting menggunakan Selenium dan Katalon Studio, secara signifikan mengurangi masalah pasca-rilis."
+        },
+        "second": {
+          "title": "Otomatisasi Pengujian API",
+          "desc": "Mengembangkan kasus uji otomatis untuk aplikasi Backend menggunakan Katalon Studio, secara signifikan mengurangi waktu pengujian manual."
+        },
+        "third": {
+          "title": "Migrasi SAS ke SQL",
+          "desc": "Melakukan migrasi dari bahasa SAS (*.sas) ke SQL (*.sql), memastikan keakuratan data dengan membandingkan output dari SAS asli ke query SQL hingga hasilnya cocok."
+        },
+        "fourth": {
+          "title": "Transisi Alur Kerja Data",
+          "desc": "Migrasi dari Informatica ke Airflow untuk ekstraksi data dengan mendistribusikan tabel di Airflow. Mengkonfigurasi penjadwalan dan ketergantungan tabel untuk merampingkan alur kerja data dan memastikan pemrosesan data yang efisien."
+        },
+        "fifth": {
+          "title": "Pembuatan Laporan Microsoft BI",
+          "desc": "Mengembangkan layanan laporan baru menggunakan Business Intelligence Microsoft di Visual Studio, meningkatkan visualisasi data dan kemampuan pelaporan untuk mendukung pengambilan keputusan yang tepat dan efisiensi operasional."
+        }
+      },
+      "case": {
+        "first": {
+          "title": "Penyederhanaan Alur Kerja TOML dengan Python",
+          "desc": "Menyederhanakan alur kerja untuk membangun file TOML menggunakan Python, meningkatkan efisiensi dan otomatisasi dalam manajemen konfigurasi dan mengurangi upaya manual."
+        }
+      }
+    },
+    "contact": {
+      "intro": "Apakah Anda memiliki proyek yang ingin dibahas, pertanyaan yang ingin diajukan, atau sekadar ingin terhubung, jangan ragu untuk menghubungi! Saya senang mendengar dari Anda.",
+      "connected": "Mari tetap terhubung melalui media sosial. Ikuti perjalanan saya, lihat pembaruan terbaru saya, dan jangan ragu untuk menghubungi!"
+    }
+  }
+}

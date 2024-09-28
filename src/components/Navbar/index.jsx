@@ -6,8 +6,10 @@ import {
   NavMenu,
   NavBtn,
   NavBtnLink,
+  NavLang,
 } from "./NavbarElements";
 import ThemeToggle from "../Theme/ThemeToggle";
+import LanguageToggle from "../LanguageToggle";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); // State to control menu
@@ -71,6 +73,9 @@ const Navbar = () => {
           </NavLink>
         </NavMenu>
         {/* <ThemeToggle /> */}
+        <NavLang>
+          <LanguageToggle />
+        </NavLang>
       </Nav>
     </>
   );

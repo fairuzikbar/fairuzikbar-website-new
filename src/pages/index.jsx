@@ -1,10 +1,19 @@
 import React from "react";
 import "../assets/css/hero.css";
 import { NavLink } from "react-router-dom";
-import { FaLinkedin, FaGithub, FaSquareTwitter, FaFileArrowDown } from "react-icons/fa6";
+import {
+  FaLinkedin,
+  FaGithub,
+  FaSquareTwitter,
+  FaFileArrowDown,
+} from "react-icons/fa6";
 import Profile from "../assets/img/profile.jpg";
+import { useLanguage } from "../components/LanguageContext";
+import translations from "../assets/json/translation.json";
 
 const Home = () => {
+  const { language, setLanguage } = useLanguage();
+  const t = translations[language];
   return (
     <div className="home">
       <div className="hero-banner">
@@ -16,16 +25,11 @@ const Home = () => {
           />
           <h1 className="name">Fairuz Ikbar</h1>
           <p className="occupation">QA Automation Engineer</p>
-          <p className="bio">
-            Graduate of Bachelor of Applied Engineering with a background in
-            Heavy Equipment Engineering who switched to the IT field by studying
-            Full Stack Development using NodeJs and Angular for ±3 months. I
-            previously worked as a Big Data Engineer at OCBC NISP and currently
-            have a career as a Software Quality Assurance Automation Engineer at
-            Bank Mandiri.
-          </p>
+          <p className="bio">{t.hero.bio}</p>
           <NavLink to="/download-cv">
-            <button className="contact-button"><FaFileArrowDown /> See my resume</button>
+            <button className="contact-button">
+              <FaFileArrowDown /> {t.hero.button}
+            </button>
           </NavLink>
         </div>
         {/* <div className="social-links">
